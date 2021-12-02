@@ -57,7 +57,7 @@ static void temperature_sensor()
 static void light_sensor()
 {
     float value = isl29020_read_sample();
-    printf("Luminosity measure: %f lux\n", value);
+    printf("Mesures de la lumiere: %f lux\n", value);
 }
 
 
