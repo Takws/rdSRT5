@@ -36,7 +36,7 @@ static soft_timer_t tx_timer;
 #define BLINK_PERIOD soft_timer_s_to_ticks(1)
 
 /* Global variables */
-// print help every second
+// print help every second test
 volatile int8_t print_help  = 1;
 volatile int8_t leds_active = 1;
 
