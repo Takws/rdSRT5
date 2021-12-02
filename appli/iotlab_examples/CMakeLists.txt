@@ -8,7 +8,7 @@ add_subdirectory(leds_chaser)
 add_subdirectory(embers_sensors)
 
 if(${PLATFORM_HAS_CSMA})
-add_subdirectory(tutorial)
+add_subdirectory(tutorial2)
 endif(${PLATFORM_HAS_CSMA})
 
 if(${PLATFORM_HAS_LSM303DLHC})
